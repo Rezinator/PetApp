@@ -23,8 +23,8 @@ jobs:
 
         - name: Grant execute permission for gradlew
           run: chmod +x gradlew
-          working-directory: ./petsapp
+          working-directory: ./chapterfourteen
          
         - name: Build with Gradle
           run: ./gradlew assembleDebug
-          working-directory: ./petsapp
+          working-directory: ./chapterfourteen
